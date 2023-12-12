@@ -12,7 +12,6 @@ function App() {
     <div>
       <Navbar />
       <Dashboard />
-      <Dashboard />
     </div>
   )
 }
