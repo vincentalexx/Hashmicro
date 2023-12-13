@@ -1,5 +1,3 @@
-import marimas from '../public/assets/image/marimas.jpg'
-
 const Marimas = () => {
     return (
         <div className='py-32 px-20'>

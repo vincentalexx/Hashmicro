@@ -1,4 +1,4 @@
-import dashboard from '../public/assets/image/dashboard.webp'
+import dashboard from '../../public/assets/image/dashboard.webp'
 
 const Dashboard = () => {
     return (

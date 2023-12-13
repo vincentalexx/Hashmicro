@@ -1,4 +1,4 @@
-import contact from '../public/assets/image/WhatsApp.webp'
+import contact from '../../public/assets/image/WhatsApp.webp'
 
 const Konsultasi = () => {
     return (

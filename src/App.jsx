@@ -2,12 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Navbar from './Navbar'
-import Dashboard from './Dashboard'
-import Konsultasi from './Konsultasi'
-import Fitur from './Fitur'
-import Marimas from './Marimas'
-import Solusi from './Solusi'
+import Navbar from './components/Navbar'
+import Dashboard from './components/Dashboard'
+import Konsultasi from './components/Konsultasi'
+import Fitur from './components/Fitur'
+import Marimas from './components/Marimas'
+import Solusi from './components/Solusi'
+import Efisiensi from './components/Efisiensi'
+import Informasi from './components/Informasi'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +22,8 @@ function App() {
       <Fitur />
       <Marimas />
       <Solusi />
+      {/* <Efisiensi /> */}
+      <Informasi />
     </div>
   )
 }
