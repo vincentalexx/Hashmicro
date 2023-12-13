@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import Dashboard from './components/Dashboard'
@@ -10,10 +8,9 @@ import Marimas from './components/Marimas'
 import Solusi from './components/Solusi'
 import Efisiensi from './components/Efisiensi'
 import Informasi from './components/Informasi'
+import Footer from './components/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="bg-[url('../public/assets/image/marimas.jpg')] bg-no-repeat bg-center bg-fixed bg-cover">
       <Navbar />
@@ -24,6 +21,7 @@ function App() {
       <Solusi />
       {/* <Efisiensi /> */}
       <Informasi />
+      <Footer />
     </div>
   )
 }
