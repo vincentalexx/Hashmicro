@@ -49,7 +49,7 @@ const Navbar = () => {
 
                 </div>
                 {isOpen && (
-                    <div className='p-6 lg:hidden px-10 border-b-2' >
+                    <div className='p-6 lg:hidden px-16 border-b-2 ease-out duration-300 shadow-md' >
                         <ul className="flex flex-col space-y-4 ">
                             <li className="">
                                 <div className=''>
@@ -57,14 +57,16 @@ const Navbar = () => {
                                     <p className='font-bold'>hello@hashmicro.co.id</p>
                                 </div>
                             </li>
+                            <hr className='border-1 border-gray-500'/>
                             <li className="">
                                 <div className=''>
                                     <p className='' style={{fontSize: "12px"}}>Hubungi Kami</p>
                                     <p className='font-bold'>021 5099 6750</p>
                                 </div>
                             </li>
+                            <hr className='border-1 border-gray-500'/>
                             <li>
-                                <button className='p-2 bg-red-700 text-white font-bold rounded-lg hover:brightness-90'>Demo Gratis</button>
+                                <button className='p-2 bg-red-700 text-white font-bold rounded-lg hover:bg-white hover:text-black border-red-700 border-2 ease-out duration-300'>Demo Gratis</button>
                             </li>
                         </ul>
                     </div>

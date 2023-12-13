@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './Navbar'
 import Dashboard from './Dashboard'
 import Konsultasi from './Konsultasi'
+import Fitur from './Fitur'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Dashboard />
       <Konsultasi />
+      <Fitur />
     </div>
   )
 }
