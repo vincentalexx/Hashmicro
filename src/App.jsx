@@ -6,16 +6,18 @@ import Navbar from './Navbar'
 import Dashboard from './Dashboard'
 import Konsultasi from './Konsultasi'
 import Fitur from './Fitur'
+import Marimas from './Marimas'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
+    <div className="bg-[url('../public/assets/image/marimas.jpg')] bg-no-repeat bg-center bg-fixed bg-cover">
       <Navbar />
       <Dashboard />
       <Konsultasi />
       <Fitur />
+      <Marimas />
     </div>
   )
 }
