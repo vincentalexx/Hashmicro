@@ -6,7 +6,7 @@ const Dashboard = () => {
             <div className="px-20 md:px-40 lg:px-40 flex flex-col lg:space-x-10 xl:space-x-32 pt-28 lg:pt-36 space-y-12 xl:flex-row justify-center items-center pb-16 lg:pb-24">
                 <div className='space-y-7'>
                     <div className='space-y-7 max-w-lg'>
-                        <p className="font-bold text-4xl">Inversasi Sukses Marimas untuk Optimalkan Produksi dan Penuhi Tuntutan Pasar</p>
+                        <p className="font-bold text-3xl md:text-4xl">Inversasi Sukses Marimas untuk Optimalkan Produksi dan Penuhi Tuntutan Pasar</p>
                         <p className='font-semibold text-xl'>Ketahui bagaimana Marimas memilih untuk menggunakan solusi HashMicro dan meraih keuntungan maksimal</p>
                     </div>
                     <div className='flex'>

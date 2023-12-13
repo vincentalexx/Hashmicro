@@ -2,7 +2,7 @@ import hashmicro from '../../public/assets/image/hashmicro-white.webp'
 
 const Footer = () => {
     return (
-        <div className="bg-[#464652] px-16 py-12 text-white text-sm grid md:grid-cols-2 md:gap-x-28 lg:grid-cols-3 lg:gap-x-20 xl:grid-cols-4 gap-y-10 justify-center md:justify-normal">
+        <div className="bg-[#464652] px-16 md:px-20 lg:px-24 py-12 text-white text-sm grid md:grid-cols-2 md:gap-x-28 lg:grid-cols-3 lg:gap-x-20 xl:grid-cols-4 gap-y-10 justify-center md:justify-normal">
             <div className='space-y-2'>
                 <img src={hashmicro} alt="HashMicro" className='max-w-[200px]'/>
                 <p className='max-w-[350px]'>HashMicro merupakan provider brand ERP ternama di Indonesia. Telah melayani berbagai industri dengan sistem yang di kustom sesuai kebutuhan dan harga paling terjangkau jika di bandingkan dengan brand ERP lainnya.</p>
