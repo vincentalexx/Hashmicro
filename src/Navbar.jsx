@@ -16,15 +16,15 @@ const Navbar = () => {
             <div className="bg-white fixed w-full">
                 <div className='flex justify-between px-10 md:px-16 lg:px-20 h-20 items-center border-b-2 '>
                     <img src={hashmicro} alt="hashmicro" className='h-8 object-cover'/>
+                    <div className='flex items-center'>
                         <div onClick={() => setisOpen(!isOpen)} className='text-2xl cursor-pointer lg:hidden gap-x-14 ml-32'>
                             {
                                 // <FontAwesomeIcon icon={faBars} />
                                 isOpen ? <FontAwesomeIcon icon={faXmark} /> : <FontAwesomeIcon icon={faBars} />
                             }
                         </div>
-                    <div className='flex flex-col h-10 justify-between'>
-                        <div className='hidden lg:flex'>
-                            <div className='' >
+                        <div className='flex flex-col h-10 justify-between'>
+                            <div className='hidden lg:flex'>
                                 <ul className="flex space-x-16 items-center">
                                     <li className="">
                                         <div className=''>
