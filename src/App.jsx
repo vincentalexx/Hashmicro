@@ -7,6 +7,7 @@ import Dashboard from './Dashboard'
 import Konsultasi from './Konsultasi'
 import Fitur from './Fitur'
 import Marimas from './Marimas'
+import Solusi from './Solusi'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
       <Konsultasi />
       <Fitur />
       <Marimas />
+      <Solusi />
     </div>
   )
 }

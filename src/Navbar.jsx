@@ -39,7 +39,7 @@ const Navbar = () => {
                                         </div>
                                     </li>
                                     <li>
-                                        <button className='p-2 bg-red-700 text-white font-bold rounded-lg hover:brightness-90'>Demo Gratis</button>
+                                        <button className='p-2 bg-red-700 text-white font-bold  rounded-lg hover:bg-white hover:text-black border-red-700 border-2 ease-out duration-300'>Demo Gratis</button>
                                     </li>
                                 </ul>
                             </div>
