@@ -64,16 +64,16 @@ const Solusi = () => {
             </div>
             <div className="">
                 <ul className="flex bg-gray-200 rounded-3xl  font-semibold text-sm md:text-base py-1">
-                    <li className="select round-xl py-2 px-3 md:px-8 lg:px-10 cursor-pointer hover:bg-white border-2  rounded-3xl ease-out duration-300 text-white bg-red-700 hover:text-black" id='0' onClick={() => open(0)}>
+                    <li className="select round-xl py-4 px-3 md:px-8 lg:px-10 cursor-pointer hover:bg-white border-2  rounded-3xl ease-out duration-300 text-white bg-red-700 hover:text-black" id='0' onClick={() => open(0)}>
                         <p>Manufaktur</p>
                     </li>
-                    <li className="select round-xl py-2 px-3 md:px-8 lg:px-10 cursor-pointer hover:bg-white border-2  rounded-3xl ease-out duration-300 text-gray-400 hover:text-black" id='1' onClick={() => open(1)}>
+                    <li className="select round-xl py-4 px-3 md:px-8 lg:px-10 cursor-pointer hover:bg-white border-2  rounded-3xl ease-out duration-300 text-gray-400 hover:text-black" id='1' onClick={() => open(1)}>
                         <p>Supply Chain</p>
                     </li>
-                    <li className="select round-xl py-2 px-3 md:px-8 lg:px-10 cursor-pointer  hover:bg-white border-2  rounded-3xl ease-out duration-300 text-gray-400 hover:text-black" id='2' onClick={() => open(2)}>
+                    <li className="select round-xl py-4 px-3 md:px-8 lg:px-10 cursor-pointer  hover:bg-white border-2  rounded-3xl ease-out duration-300 text-gray-400 hover:text-black" id='2' onClick={() => open(2)}>
                         <p>Inventaris</p>
                     </li>
-                    <li className="select round-xl py-2 px-3 md:px-8 lg:px-10 cursor-pointer hover:bg-white border-2  rounded-3xl ease-out duration-300 text-gray-400 hover:text-black" id='3' onClick={() => open(3)}>
+                    <li className="select round-xl py-4 px-3 md:px-8 lg:px-10 cursor-pointer hover:bg-white border-2  rounded-3xl ease-out duration-300 text-gray-400 hover:text-black" id='3' onClick={() => open(3)}>
                         <p>Akuntansi</p>
                     </li>
                 </ul>

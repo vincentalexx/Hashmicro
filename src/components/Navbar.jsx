@@ -13,7 +13,7 @@ const Navbar = () => {
 
     return (
         <nav>
-            <div className="bg-white fixed w-full">
+            <div className="bg-white fixed w-full z-50">
                 <div className='flex justify-between px-10 md:px-16 lg:px-20 h-20 items-center border-b-2 shadow-md'>
                     <img src={hashmicro} alt="hashmicro" className='h-8 object-cover'/>
                     <div className='flex items-center'>

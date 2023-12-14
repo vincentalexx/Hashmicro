@@ -9,17 +9,19 @@ import Solusi from './components/Solusi'
 import Efisiensi from './components/Efisiensi'
 import Informasi from './components/Informasi'
 import Footer from './components/Footer'
+import Video from './components/Video'
 
 function App() {
   return (
-    <div className="bg-[url('../public/assets/image/marimas.jpg')] bg-no-repeat bg-center bg-fixed bg-cover">
+    <div className="bg-[url('../public/assets/image/marimas.jpg')] bg-no-repeat bg-center bg-fixed bg-cover justify-center items-center">
       <Navbar />
       <Dashboard />
       <Konsultasi />
       <Fitur />
       <Marimas />
       <Solusi />
-      {/* <Efisiensi /> */}
+      <Efisiensi />
+      {/* <Video /> */}
       <Informasi />
       <Footer />
     </div>
