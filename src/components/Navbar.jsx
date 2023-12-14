@@ -15,7 +15,9 @@ const Navbar = () => {
         <nav>
             <div className="bg-white fixed w-full z-50">
                 <div className='flex justify-between px-10 md:px-16 lg:px-20 h-20 items-center border-b-2 shadow-md'>
-                    <img src={hashmicro} alt="hashmicro" className='h-8 object-cover'/>
+                    <a href="#">
+                        <img src={hashmicro} alt="hashmicro" className='h-8 object-cover'/>
+                    </a>
                     <div className='flex items-center'>
                         <div onClick={() => setisOpen(!isOpen)} className='text-2xl cursor-pointer lg:hidden gap-x-14 ml-32'>
                             {

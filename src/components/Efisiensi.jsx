@@ -15,17 +15,21 @@ const Efisiensi = () => {
 
     let video
 
+
     useEffect(() => {
         video = document.querySelector("#video");
     }, [])
 
     function open(){
-        video.classList.remove('hidden')
+        console.log(body)
+        setisOpen(!isOpen);
+        body.style.backgroundColor = "black";
+
     }
     
     return (
         <div className='bg-white h-64 sm:h-80 md:h-[410px] lg:h-[500px] xl:h-[680px] overflow-y-hidden w-full'>
-            <div className='absolute h-full w-full '  > 
+            <div className='absolute w-full '  > 
                 <div className='pt-24 sm:pt-36 md:pt-48 lg:pt-56 xl:pt-[290px] flex flex-col space-y-3 sm:space-y-8 cursor-pointer' onClick={() => setisOpen(!isOpen)}>
                     <div className='flex justify-center items-center'>
                         <FontAwesomeIcon icon={faCirclePlay} className=' text-white text-2xl box-border z-10 cursor-pointer text-[8vw]' id='change-text'/>

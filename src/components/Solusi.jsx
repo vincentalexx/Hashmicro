@@ -43,7 +43,7 @@ const Solusi = () => {
         for(var i = 0; i < selection.length; i++){
             if(i === id){
                 masalah_content.innerHTML = textComp1[id]
-                solusi_content.innerHTML = textComp1[id]
+                solusi_content.innerHTML = textComp2[id]
                 selection[i].classList.add("bg-red-700")
                 selection[i].classList.remove("text-gray-400")
                 selection[i].classList.add("text-white")

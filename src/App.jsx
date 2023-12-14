@@ -13,7 +13,7 @@ import Video from './components/Video'
 
 function App() {
   return (
-    <div className="bg-[url('../public/assets/image/marimas.jpg')] bg-no-repeat bg-center bg-fixed bg-cover justify-center items-center">
+    <div id='wrapper' className="bg-[url('../public/assets/image/marimas.jpg')] bg-no-repeat bg-center bg-fixed bg-cover justify-center items-center">
       <Navbar />
       <Dashboard />
       <Konsultasi />
